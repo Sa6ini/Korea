@@ -1,0 +1,62 @@
+[
+  {
+    "id": "960f0884-9ac4-4cb9-96d3-79989a6caa8f",
+    "fname": "k",
+    "email": "k@kmail.com",
+    "username": "k",
+    "password": "k",
+    "profilePicture": "/uploads/profile_pictures/1729076810353-604450292.jpg",
+    "role": "worker",
+    "bio": ""
+  },
+  {
+    "id": "fefbb9a4-5628-4dc6-be40-cfb31ba71d1b",
+    "fname": "a",
+    "email": "a@amail.com",
+    "username": "a",
+    "password": "a",
+    "profilePicture": "/uploads/profile_pictures/1729279084383-25466479.jpg",
+    "role": "boss",
+    "bio": "Az sum shefa maina"
+  },
+  {
+    "id": "1aa29975-408b-4780-91c0-4909b64b1465",
+    "fname": "f",
+    "email": "f@fmail.com",
+    "username": "f",
+    "password": "f",
+    "profilePicture": "/uploads/profile_pictures/1729077828945-98453690.jpg",
+    "role": "user",
+    "bio": "fffff"
+  },
+  {
+    "id": "c9b43e5e-d834-4fcc-b9d7-a61bfe9319c8",
+    "fname": "d",
+    "email": "d@dmail.com",
+    "username": "d",
+    "password": "d",
+    "profilePicture": "",
+    "role": "user",
+    "bio": ""
+  },
+  {
+    "id": "f83d7136-4b40-4614-9f93-296e242a732f",
+    "fname": "Betty",
+    "email": "betty@gmail.com",
+    "username": "yunikonaa",
+    "password": "333",
+    "profilePicture": "/uploads/profile_pictures/1729438764688-804124287.jpg",
+    "role": "boss",
+    "bio": "Az obicham kotki"
+  },
+  {
+    "id": "7a8f83a2-b209-4693-8719-74f25993dd57",
+    "fname": "v",
+    "email": "v@vmail.com",
+    "username": "vv",
+    "password": "v",
+    "profilePicture": "",
+    "role": "user",
+    "bio": ""
+  }
+]
