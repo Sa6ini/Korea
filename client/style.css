@@ -590,7 +590,7 @@ body{
 	Start Hero Area CSS
 =============================*/
 .slider .single-slider {
-	height: 600px;
+	height: 100%;
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;
@@ -627,6 +627,9 @@ body{
 	display:inline-block;
 	margin:0;
 	margin-right:10px;
+}
+.slider .single-slider .btn::before{
+	background-color: #2C2D3F;
 }
 .slider .single-slider .btn:last-child{
 	margin:0;
