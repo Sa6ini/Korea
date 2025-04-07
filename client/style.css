@@ -309,7 +309,7 @@ body{
 }
 .header .logo {
 	float: left;
-	margin-top: 18px;
+	width: 160px;
 }
 .header .navbar {
 	background: none;

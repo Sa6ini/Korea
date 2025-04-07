@@ -17,16 +17,16 @@ export default function SingleSlider(props) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                We Provide <span>Medical</span> Services That You Can {" "}
-                <span>Trust!</span>
+                Ние предлагаме <span>Обучение</span>, на което може да {" "}
+                <span>Разчитате!</span>
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.6  }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                sed nisl pellentesque, faucibus libero eu, gravida quam.
+                Екип от професионалисти с години опит и образувание, което<br></br>
+                желаете за вас.
               </motion.p>
               <motion.div
                 className="button"
@@ -35,10 +35,10 @@ export default function SingleSlider(props) {
                 transition={{ duration: 1.5, delay: 0.6}}
               >
                 <a href="#" className="btn">
-                  Get Appointment
+                  Запиши се за час
                 </a>
                 <a href="#" className="btn primary">
-                  Learn More
+                  Научи повече
                 </a>
               </motion.div>
             </div>

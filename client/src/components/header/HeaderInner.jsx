@@ -6,13 +6,11 @@ const HeaderInner = () => {
         <div className="inner">
           <div className="row">
             <div className="col-lg-3 col-md-3 col-12">
-              {/* Start Logo */}
               <div className="logo">
                 <a href="index.html">
-                  <img src="img/logo.png" alt="#" />
+                  <img src="img/korea_logo.png" alt="korea-logo" />
                 </a>
               </div>
-              {/* End Logo */}
               {/* Mobile Nav */}
               <div className="mobile-nav" />
               {/* End Mobile Nav */}
@@ -24,7 +22,7 @@ const HeaderInner = () => {
                   <ul className="nav menu">
                     <li className="active">
                       <a href="#">
-                        Home <i className="icofont-rounded-down" />
+                        Главна страница <i className="icofont-rounded-down" />
                       </a>
                       <ul className="dropdown">
                         <li>
@@ -33,33 +31,24 @@ const HeaderInner = () => {
                       </ul>
                     </li>
                     <li>
-                      <a href="#">Doctos </a>
+                      <a href="#">Учители </a>
                     </li>
                     <li>
-                      <a href="#">Services </a>
+                      <a href="#">Услуги </a>
                     </li>
+                    
                     <li>
                       <a href="#">
-                        Pages <i className="icofont-rounded-down" />
+                        Блок <i className="icofont-rounded-down" />
                       </a>
                       <ul className="dropdown">
                         <li>
-                          <a href="404.html">404 Error</a>
+                          <a href="blog-single.html">Блок</a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="#">
-                        Blogs <i className="icofont-rounded-down" />
-                      </a>
-                      <ul className="dropdown">
-                        <li>
-                          <a href="blog-single.html">Blog Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact Us</a>
+                      <a href="contact.html">Контакти</a>
                     </li>
                   </ul>
                 </nav>
@@ -69,7 +58,7 @@ const HeaderInner = () => {
             <div className="col-lg-2 col-12">
               <div className="get-quote">
                 <a href="appointment.html" className="btn">
-                  Book Appointment
+                  Запази час 
                 </a>
               </div>
             </div>

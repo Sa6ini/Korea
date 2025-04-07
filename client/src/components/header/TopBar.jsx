@@ -9,16 +9,16 @@ const TopBar = () => {
               {/* Contact */}
               <ul className="top-link">
                 <li>
-                  <a href="#">About</a>
+                  <a href="#">За нас</a>
                 </li>
                 <li>
-                  <a href="#">Doctors</a>
+                  <a href="#">Учители</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="#">Контакти</a>
                 </li>
                 <li>
-                  <a href="#">FAQ</a>
+                  <a href="#">Често задавани въпроси</a>
                 </li>
               </ul>
               {/* End Contact */}
@@ -28,11 +28,11 @@ const TopBar = () => {
               <ul className="top-contact">
                 <li>
                   <i className="fa fa-phone" />
-                  +880 1234 56789
+                  +359 87 886 2282
                 </li>
                 <li>
                   <i className="fa fa-envelope" />
-                  <a href="mailto:support@yourmail.com">support@yourmail.com</a>
+                  <a href="mailto:support@yourmail.com">korea@gmail.com</a>
                 </li>
               </ul>
               {/* End Top Contact */}
