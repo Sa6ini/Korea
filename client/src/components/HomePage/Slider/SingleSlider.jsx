@@ -25,7 +25,7 @@ export default function SingleSlider(props) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.6  }}
               >
-                Екип от професионалисти с години опит и образувание, което<br></br>
+                Екип от професионалисти с години опит и образование, което<br></br>
                 желаете за вас.
               </motion.p>
               <motion.div
