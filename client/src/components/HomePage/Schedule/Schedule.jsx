@@ -10,19 +10,19 @@ const Schedule = () => {
             <div className="col-lg-4 col-md-6 col-12 ">
               <SingleShedule
                 position_class = "first"
-                icon_class="fa fa-ambulance"
+                icon_class="icofont-certificate-alt-2"
                 small_title=""
                 big_title="Сертификати"
-                paragraph="Предлагаме сертификати за ниво на корейски 1."
+                paragraph="Предлагаме сертификати за ниво на корейски 1.dabsdjabsdbqwbdnjasndjabsdjba"
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <SingleShedule
                 position_class = "middle"
-                icon_class="icofont-prescription"
+                icon_class="icofont-teacher"
                 small_title=""
                 big_title="Учители"
-                paragraph="Професионален опит"
+                paragraph="lorem20andjsadjsandksandjna  dajsdajsbdjbdasdjbqajabsdjabsjdbsajda scjjasbj  "
               />
               
             </div>

@@ -589,12 +589,17 @@ body{
 /*===========================
 	Start Hero Area CSS
 =============================*/
+/* Добавяне на blur ефект към фоновото изображение */
 .slider .single-slider {
+	position: relative;
 	height: 100%;
 	background-size: cover;
 	background-position: center;
-	background-repeat:no-repeat;
-}
+	background-repeat: no-repeat;
+  }
+  
+  
+  
 .slider .single-slider .text{
 	margin-top:120px;
 }

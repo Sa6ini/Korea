@@ -4,9 +4,10 @@ import { motion } from "framer-motion";
 
 export default function SingleSlider(props) {
   return (
+    
     <div
       className="single-slider"
-      style={{ backgroundImage: `url(${props.image})` }}
+      style={{backgroundImage: `url(${props.image})`}}
     >
       <div className="container">
         <div className="row">

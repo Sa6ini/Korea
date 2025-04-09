@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import SingleSlider from "./SingleSlider";
 import "./slider.css";
 
-const images = ["img/slider.jpg", "img/slider2.jpg", "img/slider3.jpg"];
+const images = ["img/slider1.jpg", "img/slider2.jpg", "img/slider3.jpg"];
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
