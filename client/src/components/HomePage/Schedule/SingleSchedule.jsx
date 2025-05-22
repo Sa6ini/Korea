@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const SingleShedule = (props) => {
   return (
     <div>
@@ -11,10 +12,10 @@ const SingleShedule = (props) => {
             <span>{props.small_title}</span>
             <h4>{props.big_title}</h4>
             <p>{props.paragraph}</p>
-            <a href="#">
-              Научи повече
-              <i className="fa fa-long-arrow-right" />
-            </a>
+            <Link to="/teacher">
+                      Научи повече
+                      <i className="fa fa-long-arrow-right" />
+                    </Link>
           </div>
         </div>
       </div>

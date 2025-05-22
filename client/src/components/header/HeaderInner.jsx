@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 const HeaderInner = () => {
   return (
     <div className="header-inner">
@@ -7,9 +9,9 @@ const HeaderInner = () => {
           <div className="row">
             <div className="col-lg-3 col-md-3 col-12">
               <div className="logo">
-                <a href="index.html">
-                  <img src="img/korea_logo.png" alt="korea-logo" />
-                </a>
+                <Link to="/">
+                  <img src="img/logo.png" alt="korea-logo" />
+                </Link>
               </div>
               {/* Mobile Nav */}
               <div className="mobile-nav" />
@@ -20,35 +22,25 @@ const HeaderInner = () => {
               <div className="main-menu">
                 <nav className="navigation">
                   <ul className="nav menu">
-                    <li className="active">
-                      <a href="#">
-                        Главна страница <i className="icofont-rounded-down" />
-                      </a>
-                      <ul className="dropdown">
-                        <li>
-                          <a href="index.html">Home Page 1</a>
-                        </li>
-                      </ul>
+                    <li>
+                      <Link to="/">
+                        Начало
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">Учители </a>
+                      <Link to="/teacher">Учител</Link>
                     </li>
                     <li>
-                      <a href="#">Услуги </a>
-                    </li>
-                    
-                    <li>
-                      <a href="#">
-                        Блок <i className="icofont-rounded-down" />
-                      </a>
-                      <ul className="dropdown">
-                        <li>
-                          <a href="blog-single.html">Блок</a>
-                        </li>
-                      </ul>
+                      <Link to="#">Услуги</Link>
                     </li>
                     <li>
-                      <a href="contact.html">Контакти</a>
+                      <Link to="#">
+                        Блок
+                      </Link>
+                      
+                    </li>
+                    <li>
+                      <Link to="#">Контакти</Link>
                     </li>
                   </ul>
                 </nav>
@@ -57,9 +49,9 @@ const HeaderInner = () => {
             </div>
             <div className="col-lg-2 col-12">
               <div className="get-quote">
-                <a href="appointment.html" className="btn">
-                  Запази час 
-                </a>
+                <Link to="/appointment" className="btn">
+                  Записи час
+                </Link>
               </div>
             </div>
           </div>
@@ -68,4 +60,5 @@ const HeaderInner = () => {
     </div>
   );
 };
+
 export default HeaderInner;
