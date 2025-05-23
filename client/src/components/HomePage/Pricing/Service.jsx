@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 const Service = ({ title, price, hours, class_icon, features }) => {
   return (
@@ -21,9 +21,8 @@ const Service = ({ title, price, hours, class_icon, features }) => {
           {features.map((item, index) => (
             <li key={index} className={item.available ? "" : "cross"}>
               <i
-                className={`icofont ${
-                  item.available ? "icofont-ui-check" : "icofont-ui-close"
-                }`}
+                className={`icofont ${item.available ? "icofont-ui-check" : "icofont-ui-close"
+                  }`}
               />
               {item.text}
             </li>
@@ -31,9 +30,9 @@ const Service = ({ title, price, hours, class_icon, features }) => {
         </ul>
 
         <div className="table-bottom">
-          <a className="btn" href="#">
+          <Link className="btn" to="/appointment">
             Запази час
-          </a>
+          </Link>
         </div>
       </div>
     </div>

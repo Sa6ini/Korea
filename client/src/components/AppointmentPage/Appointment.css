@@ -1,4 +1,15 @@
-form {
+.appointment-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+}
+
+.appointment-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,20 +23,12 @@ form {
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.appointment-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 
-}
-form input,
-form select,
-form textarea,
-form button {
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea,
+.appointment-form button {
   width: 100%;
-  max-width: 600px;
   padding: 0.75rem;
   font-size: 1rem;
   border: 1px solid #ccc;
@@ -33,3 +36,36 @@ form button {
   box-sizing: border-box;
 }
 
+/* ✅ Responsive adjustments */
+@media (max-width: 768px) {
+  .appointment-form {
+    padding: 1.5rem;
+    margin: 20px auto;
+  }
+
+  .appointment-wrapper {
+    padding: 0.5rem;
+    background-position: top;
+  }
+
+  .appointment-form input,
+  .appointment-form select,
+  .appointment-form textarea,
+  .appointment-form button {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .appointment-form {
+    padding: 1rem;
+  }
+
+  .appointment-form input,
+  .appointment-form select,
+  .appointment-form textarea,
+  .appointment-form button {
+    font-size: 0.9rem;
+    padding: 0.65rem;
+  }
+}

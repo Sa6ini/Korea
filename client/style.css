@@ -578,6 +578,141 @@ body{
 	animation: fadeInDown 0.5s both 0.1s;
 	box-shadow:0px 0px 13px #00000054;
 }
+/* ------------------------------
+   Responsive Header Styles
+--------------------------------*/
+.mobile-menu-btn {
+	background: none;
+	border: none;
+	color: #333;
+	cursor: pointer;
+  }
+  
+  .main-menu.mobile-show {
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 999;
+	padding: 20px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  @media (min-width: 992px) {
+	.main-menu.mobile-show {
+	  display: flex !important;
+	  position: static;
+	  background: none;
+	  box-shadow: none;
+	  padding: 0;
+	}
+  }
+  
+/* Tablet view (below 992px) */
+@media (max-width: 991.98px) {
+	.header .top-link,
+	.header .top-contact,
+	.header .widget-main,
+	.header .right-bar {
+	  float: none;
+	  text-align: center;
+	  display: block;
+	  margin: 10px 0;
+	}
+  
+	.header .single-widget {
+	  float: none;
+	  display: block;
+	  margin: 10px auto;
+	  padding-left: 0;
+	  text-align: center;
+	}
+  
+	.header .single-widget i {
+	  position: static;
+	  display: inline-block;
+	  margin-bottom: 5px;
+	}
+  
+	.header .nav {
+	  float: none;
+	  text-align: center;
+	  margin-top: 10px;
+	}
+  
+	.header .nav li {
+	  float: none;
+	  display: inline-block;
+	  margin: 5px;
+	}
+  
+	.header .logo {
+	  float: none;
+	  margin: 0 auto;
+	  display: block;
+	  text-align: center;
+	}
+  
+	.header .navbar-collapse {
+	  text-align: center;
+	}
+  
+	.header .nav li a {
+	  padding: 12px;
+	}
+  
+	.header .nav li .dropdown {
+	  position: static;
+	  transform: scaleY(1);
+	  opacity: 1;
+	  visibility: visible;
+	  box-shadow: none;
+	  border: none;
+	  width: auto;
+	  background: none;
+	}
+  
+	.header .nav li .dropdown li {
+	  border: none;
+	}
+  }
+  
+  /* Mobile view (below 768px) */
+  @media (max-width: 767.98px) {
+	.header .topbar,
+	.header .middle-header {
+	  padding: 10px 0;
+	}
+  
+	.header .single-widget h4 {
+	  font-size: 14px;
+	}
+  
+	.header .nav li a {
+	  font-size: 13px;
+	}
+  
+	.header .search-form input {
+	  width: 100%;
+	}
+  
+	.header .search-form {
+	  right: auto;
+	  left: 0;
+	  width: 100%;
+	}
+  
+	.header .search-form button {
+	  width: 50px;
+	}
+  
+	.header .right-bar a {
+	  margin: 0 auto;
+	}
+  }
+  
 /*=========================
 	End Header CSS
 ===========================*/
@@ -4166,6 +4301,9 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+.logo{
+	height: 70px;
+}
 
 @media only screen and (max-width: 430px) {
 	

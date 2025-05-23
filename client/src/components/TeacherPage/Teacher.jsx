@@ -26,7 +26,7 @@ const Teacher = (props) => {
           <p className="mb-4">
             <b className="text-primary">Телефон:</b> {props.phone}
           </p>
-          <div className="rounded bg-dark p-5">
+          <div className="rounded bg-primary p-5">
             <h5 className="text-white mb-3">За мен</h5>
             <div className="text-white mb-0">
               {(props.bio || "No bio available.")
